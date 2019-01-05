@@ -1,0 +1,38 @@
+.navbar {
+  height: 80px;
+  width: 1440px;
+  border-bottom: 1px solid lightblue;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin: 0;
+  .left {
+    .navbar-brand {
+      padding-left: 10px;
+      margin-right: 20px;
+      text-decoration: none;
+      color: navy;
+      font-size: 2em;
+      align-items: center;
+    }
+  }
+  .right {
+    //   width: 500px;
+    ul {
+      display: flex;
+      li {
+        //       position: relative;
+        //       display: inline-block;
+        list-style: none;
+        margin: 10px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

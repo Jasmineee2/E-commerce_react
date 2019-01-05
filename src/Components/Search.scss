@@ -1,0 +1,15 @@
+.search {
+  width: 1440px;
+  .left-categories {
+    position: absolute;
+    left: 0px;
+    width: 20%;
+    border-right: 1px solid grey;
+    height: 100%;
+  }
+  .right-products {
+    position: absolute;
+    right: 0px;
+    width: 80%;
+  }
+}
